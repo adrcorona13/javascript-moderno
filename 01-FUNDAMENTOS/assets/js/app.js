@@ -26,4 +26,10 @@
 
 // alert('alert desde .js')
 
-var miNombre = 'Adrian'
+////////////
+console.log(miNombre);
+
+var miNombre = 'Adrian' // undefined
+let miNombre = 'Adrian' // error se usa antes de definirla
+
+////////////
