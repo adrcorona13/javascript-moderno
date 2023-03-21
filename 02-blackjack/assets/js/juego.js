@@ -23,4 +23,14 @@ const crearDeck = () => {
     deck = _.shuffle(deck);   
 }
 
+const pedirCarta = () => {
+    if (deck.length === 0) {
+        throw 'No hay más cartas';
+    }
+    return deck.pop();
+};
+
 crearDeck();
+console.log(deck.length);
+console.log(pedirCarta());
+console.log(deck.length);
